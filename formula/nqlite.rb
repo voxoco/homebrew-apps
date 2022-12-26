@@ -5,26 +5,26 @@
 class Nqlite < Formula
   desc "Easy, lightweight relational database using sqlite and nats jetstream"
   homepage "https://github.com/voxoco/nqlite"
-  url "https://github.com/voxoco/nqlite/archive/v0.0.13.tar.gz"
-  sha256 "a56c1feeb0bc425a640cd9105d1300ebe20a9fd340a2385616ad6984772eb1e8"
+  url "https://github.com/voxoco/nqlite/archive/v0.0.14.tar.gz"
+  sha256 "5093e52f0c235514df43dd151c040c34827c63d123093be280c8e8c619fec13f"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/voxoco/nqlite/releases/download/v0.0.13/nqlite-0.0.13-darwin-amd64.tar.gz"
-      sha256 "58e75274c3418adbbf6e448c1ad634950f0983132edba6cabeab771a6d44f0fc"
+      url "https://github.com/voxoco/nqlite/releases/download/v0.0.14/nqlite-0.0.14-darwin-amd64.tar.gz"
+      sha256 "006617fe9cf0359db6afd1933671fc367d11dfb085680e860945efe41e565293"
     end
 
     on_arm do
-      url "https://github.com/voxoco/nqlite/releases/download/v0.0.13/nqlite-0.0.13-darwin-arm64.tar.gz"
-      sha256 "c5f3f405dda3eff6b6aed4d3c33f58d30e726978891c9801fe8320369b34ef90"
+      url "https://github.com/voxoco/nqlite/releases/download/v0.0.14/nqlite-0.0.14-darwin-arm64.tar.gz"
+      sha256 "0d399f169ad6eb009c44a33cfcd690ec6ce7c0fbe22d781a0c725b4e4eba7700"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/voxoco/nqlite/releases/download/v0.0.13/nqlite-0.0.13-linux-amd64.tar.gz"
-      sha256 "b0ce8529fb3a57545831414226bcd9c558712bdd780a585d37902bc70db42875"
+      url "https://github.com/voxoco/nqlite/releases/download/v0.0.14/nqlite-0.0.14-linux-amd64.tar.gz"
+      sha256 "0d4d900f58ab697379d459c14178bb252fe02a7bbacd969f24f9814366e7989f"
     end
   end
 
