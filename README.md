@@ -1,4 +1,4 @@
-# homebrew-formulas
+# homebrew-apps
 
 <!-- project_table_start -->
 
